@@ -6,10 +6,14 @@
 
 ### 🛠️ Core Stack & Infrastructure
 
-```c++
-struct GameDeveloper {
-    const char* engines[]   = { "Unity", "Unreal Engine" };
-    const char* languages[] = { "C#", "C++" };
+```cpp
+struct GameDeveloper
+{
+    const char* engines[]   = { "Unity" };
+    const char* languages[] = { "C#", "C" };
     const char* pipeline[]  = { "Git", "GitHub", "Notion" };
     const char* ai_agents[] = { "OpenAI Codex", "Claude Sonnet" };
 };
+```
+
+[![Sponsor Cryo-Node](https://img.shields.io/badge/Sponsor-Cryo--Node-pink?style=flat-square&logo=GitHub+Sponsors&logoColor=white)](https://github.com/sponsors/Cryo-Node)
